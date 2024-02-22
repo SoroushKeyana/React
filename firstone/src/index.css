@@ -1,0 +1,111 @@
+
+*{
+  margin: 0px;
+}
+
+.header{
+  background-color: #2d3843;
+  display: block;
+}
+.header li{
+  display: inline-block;
+  margin: 5px;
+}
+.header li a{
+  color: white;
+  text-decoration: none;
+}
+.header li a:hover{
+  color: rgb(246, 225, 225);
+  text-decoration: underline;
+}
+
+.footer{
+  background-color: #2d3843;
+  color: #f9f9f9;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.middle{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  border: 1px solid rgb(31, 136, 34);
+  border-radius: 10prgb(99, 74, 243);
+  width: 250px;
+  padding: 10px;
+  box-shadow: 0px 5px 5px 0px black;
+  margin: 20px;
+  text-align: center;
+}
+.card img{
+  width: 200px;
+}
+.online{
+  width: 10px;
+  height: 10px;
+  background-color: rgb(20, 191, 20);
+  border-radius: 50%;
+  display: inline-block;
+}
+.offline{
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.counter{
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.counterNumber{
+  font-size: 100px;
+}
+.counterRed{
+  color: red;
+  font-size: 100px;
+}
+.counterGreen{
+  color: green;  
+  font-size: 100px;
+}
+.counterBtn{
+  background-color: #3b3c51;
+  color: white;
+  padding: 10px;
+  height: 50px;
+  margin: 3px;
+  font-size: 20px;
+  font-weight: 900;
+}
+.counterBtn:hover{
+  background-color: #5c5e7e;
+  cursor: pointer;
+}
